@@ -1,0 +1,15 @@
+export const fetcher = (...args) => fetch(...args).then((res) => res.json());
+export const API = "674f9dae5be4cdbe4fcde7c02238d097";
+export const movieUrlNowPlaying = `https://api.themoviedb.org/3/movie/now_playing?api_key=${API}&page=`;
+export const movieUrlPopular = `https://api.themoviedb.org/3/movie/popular?api_key=${API}&page=`;
+export const movieUrlTopRated = `https://api.themoviedb.org/3/movie/top_rated?api_key=${API}&page=`;
+export const movieUrlUpComing = `https://api.themoviedb.org/3/movie/upcoming?api_key=${API}&page=`;
+export const movieUrlTrending = `https://api.themoviedb.org/3/trending/movie/day?api_key=${API}&page=`;
+export const movieUrlTrending1 = `https://api.themoviedb.org/3/trending/movie/day?api_key=${API}`;
+export const ImgUrl = "https://image.tmdb.org/t/p/w500/";
+export const movieUrlSearch = `https://api.themoviedb.org/3/search/movie?api_key=${API}`;
+export const movieUrlDiscovery = `https://api.themoviedb.org/3/discover/movie?api_key=${API}&page=`;
+export const movieUrlQuery = `https://api.themoviedb.org/3/search/movie?api_key=${API}&query=`;
+export const movieUrlDetails = `https://api.themoviedb.org/3/movie/`;
+export const movieUrlVideo = `https://api.themoviedb.org/3/movie/976573/videos?api_key=${API}`;
+export const movieUrlSimilarFilm = `https://api.themoviedb.org/3/movie/`;

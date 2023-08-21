@@ -1,0 +1,10 @@
+# Cấu hình mặc định cho tất cả các tệp
+root = true
+
+# Cấu hình cho tệp JavaScript và JSX
+[*]
+indent_style = space
+indent_size = 4
+charset = utf-8
+
+

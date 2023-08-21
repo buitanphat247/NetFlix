@@ -1,0 +1,45 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+* {
+    font-family: "Roboto", sans-serif;
+}
+body {
+    background: #1d1d27;
+    margin: 0;
+    padding: 0;
+    &::-webkit-scrollbar {
+        width: 5px; /* Độ rộng của thanh cuộn (thanh kéo) */
+    }
+
+    &::-webkit-scrollbar-track {
+        background: slategray; /* Màu của track (phần nền của thanh cuộn) */
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: rgb(75, 59, 59); /* Màu của thanh cuộn (thanh kéo) */
+        border-radius: 10000px;
+    }
+}
+.movie-List .swiper-slide {
+    width: 290px;
+}
+
+.navright {
+    overflow: auto;
+    &::-webkit-scrollbar {
+        width: 5px; /* Độ rộng của thanh cuộn (thanh kéo) */
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: transparent;
+        border-radius: 10000px;
+    }
+}
+.banner .swiper {
+    height: 100%;
+}
